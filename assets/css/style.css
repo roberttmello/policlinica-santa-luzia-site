@@ -919,7 +919,7 @@ section {
 # Serviços
 --------------------------------------------------------------*/
 .servicos .icon-box {
-  text-align: center;
+  text-align: left;
   border: 1px solid #d5e1ed;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -970,7 +970,7 @@ section {
 .servicos .icon-box p {
   line-height: 24px;
   font-size: 14px;
-  margin-bottom: 0;
+  margin-bottom: 12px;
 }
 
 .servicos .icon-box:hover {
@@ -996,68 +996,95 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Departamentos
---------------------------------------------------------------*/
-.departamentos {
+/*---------------------------------------------------------------
+ # Especialidades 
+ --------------------------------------------------------------*/
+ .especialidades {
+  background: #fff;
+}
+
+.especialidades .scroll {
+  display: flex;
+  align-items:flex-end;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+
+.especialidades .member {
+  position: relative;
+  width: 100%;
+  box-shadow: 0px 2px 15px rgba(0, 119, 17, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.especialidades .member .pic {
   overflow: hidden;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
 }
 
-.departamentos .nav-tabs {
-  border: 0;
+.especialidades .member .pic img {
+  
+  transition: ease-in-out 0.3s;
 }
 
-.departamentos .nav-link {
-  border: 0;
-  padding: 12px 15px 12px 0;
-  transition: 0.3s;
-  color: #119922;
-  border-radius: 0;
-  border-right: 2px solid #ebf1f6;
-  font-weight: 600;
-  font-size: 15px;
+.especialidades .member:hover img {
+  transform: scale(1.1);
 }
 
-.departamentos .nav-link:hover {
-  color: #007711;
+.especialidades .member .member-info {
+  padding-left: 30px;
 }
 
-.departamentos .nav-link.active {
-  color: #007711;
-  border-color: #007711;
-}
-
-.departamentos .tab-pane.active {
-  -webkit-animation: fadeIn 0.5s ease-out;
-  animation: fadeIn 0.5s ease-out;
-}
-
-.departamentos .details h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
+.especialidades .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
   color: #119922;
 }
 
-.departamentos .details p {
-  color: #777777;
+.especialidades .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
 }
 
-.departamentos .details p:last-child {
-  margin-bottom: 0;
+.especialidades .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-@media (max-width: 992px) {
-  .departamentos .nav-link {
-    border: 0;
-    padding: 15px;
-  }
-
-  .departamentos .nav-link.active {
-    color: #fff;
-    background: #007711;
-  }
+.especialidades .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #88CC88;
 }
+
+.especialidades .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.especialidades .member .social a:hover {
+  background: #007711;
+}
+
+.especialidades .member .social a+a {
+  margin-left: 8px;
+}
+
 
 /*--------------------------------------------------------------
 # Profissionais
@@ -1066,8 +1093,8 @@ section {
   background: #fff;
 }
 
-.profissionais .container {
-  height: calc(100vh - 50px);
+.profissionais .scroll {
+  height: calc(70vh - 50px);
   overflow-y:scroll;
 }
 
