@@ -1436,10 +1436,11 @@ section {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  margin-right: 14px;
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  padding: 0;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
