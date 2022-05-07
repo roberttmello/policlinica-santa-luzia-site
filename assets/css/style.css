@@ -1025,22 +1025,17 @@ section {
   background: #fff;
 }
 
-/* 
-.especialidades .scroll {
-  align-items:center;
-  height: 100%;
-  width: 100%;
-  overflow-y: hidden;
-  overflow-x: scroll;
-} */
 
 
 .especialidades .member {
+  justify-content:center;
+  align-items: stretch;
   position: relative;
   width: 100%;
   box-shadow: 0px 2px 15px rgba(0, 119, 17, 0.08);
   padding: 30px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .especialidades .member .pic {
@@ -1059,6 +1054,10 @@ section {
 }
 
 .especialidades .member .member-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding-left: 30px;
 }
@@ -1066,10 +1065,6 @@ section {
 .especialidades .member .member-info .modal-body {
   display: flex;
   justify-content: space-between;
-}
-
-.especialidades .member .member-info .modal-image-container {
-  
 }
 
 .especialidades .member .member-info .modal-body img {
@@ -1081,11 +1076,12 @@ section {
 
 
 .especialidades .member .member-info .modal-body p {
+  font-size: 1.25rem;
   margin-left: 40px;
 }
 
 
-.especialidades .member h4 {
+.especialidades .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
@@ -1098,17 +1094,18 @@ section {
   font-size: 14px;
 }
 
-.especialidades .member button {
+.especialidades .member .member-info button {
   background: #007711;
   border: 0;
-  padding: 10px 35px;
+  padding: 6px 24px;
+  width: 140px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
   margin-top: 8px;
 }
 
-.especialidades .member button:hover {
+.especialidades .member .member-info button:hover {
   background: #119922;
 }
 
