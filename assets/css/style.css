@@ -1069,7 +1069,7 @@ section {
 }
 
 .especialidades .member .member-info .modal-image-container {
-  width: 50%;
+  
 }
 
 .especialidades .member .member-info .modal-body img {
@@ -1078,6 +1078,7 @@ section {
   max-height: 240px;
   margin-right: 20px;
 }
+
 
 .especialidades .member .member-info .modal-body p {
   margin-left: 40px;
@@ -1141,6 +1142,26 @@ section {
 
 .especialidades .member .social a+a {
   margin-left: 8px;
+}
+
+
+@media (max-width: 480px) {
+
+  .especialidades .member .member-info .modal-body {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .especialidades .member .member-info .modal-body img {
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .especialidades .member .member-info .modal-body p {
+    margin-top: 20px;
+  }
+
 }
 
 
