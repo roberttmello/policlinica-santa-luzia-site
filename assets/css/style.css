@@ -1025,13 +1025,14 @@ section {
   background: #fff;
 }
 
+/* 
 .especialidades .scroll {
-  /* align-items:center; */
+  align-items:center;
   height: 100%;
   width: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
-}
+} */
 
 
 .especialidades .member {
@@ -1050,7 +1051,6 @@ section {
 }
 
 .especialidades .member .pic img {
-  
   transition: ease-in-out 0.3s;
 }
 
@@ -1059,8 +1059,25 @@ section {
 }
 
 .especialidades .member .member-info {
+  text-align: center;
   padding-left: 30px;
 }
+
+.especialidades .member .member-info .modal-body {
+  display: flex;
+}
+
+.especialidades .member .member-info .modal-image-container {
+  width: 50%;
+}
+
+.especialidades .member .member-info .modal-body img {
+  overflow: hidden;
+  max-width: 240px;
+  max-height: 240px;
+  margin-right: 20px;
+}
+
 
 .especialidades .member h4 {
   font-weight: 700;
@@ -1070,8 +1087,23 @@ section {
 }
 
 .especialidades .member p {
+  text-align: left;
   margin: 10px 0 0 0;
   font-size: 14px;
+}
+
+.especialidades .member button {
+  background: #007711;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+
+.especialidades .member button:hover {
+  background: #119922;
 }
 
 .especialidades .member .social {
@@ -1114,10 +1146,10 @@ section {
   background: #fff;
 }
 
-.profissionais .scroll {
+/* .profissionais .scroll {
   height: calc(70vh - 50px);
   overflow-y:scroll;
-}
+} */
 
 
 .profissionais .member {
