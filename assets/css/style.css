@@ -1065,6 +1065,7 @@ section {
 
 .especialidades .member .member-info .modal-body {
   display: flex;
+  justify-content: space-between;
 }
 
 .especialidades .member .member-info .modal-image-container {
@@ -1076,6 +1077,10 @@ section {
   max-width: 240px;
   max-height: 240px;
   margin-right: 20px;
+}
+
+.especialidades .member .member-info .modal-body p {
+  margin-left: 40px;
 }
 
 
