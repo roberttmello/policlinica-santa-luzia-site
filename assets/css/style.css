@@ -1080,9 +1080,9 @@ section {
 
 
 .especialidades .member .member-info h4 {
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: bold;
   margin-bottom: 5px;
-  font-size: 20px;
   color: #119922;
 }
 
@@ -1101,6 +1101,8 @@ section {
   transition: 0.4s;
   border-radius: 50px;
   margin-top: 8px;
+  font-size: 0.75rem;
+  font-weight: bold;
 }
 
 .especialidades .member .member-info button:hover {
