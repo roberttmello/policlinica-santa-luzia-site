@@ -1025,8 +1025,6 @@ section {
   background: #fff;
 }
 
-
-
 .especialidades .member {
   justify-content:center;
   position: relative;
@@ -1159,6 +1157,28 @@ section {
     margin-top: 20px;
   }
 
+}
+
+/*--------------------------------------------------------------
+# Exames
+--------------------------------------------------------------*/
+
+#exames .member {
+  background-color: #007711;
+}
+
+#exames .member h4 {
+  color: #fafafa;
+}
+
+#exames .member .saiba-mais-button {
+  color: #222222;
+  background-color: #fafafa;
+}
+
+#exames .member .saiba-mais-button:hover {
+  color: #fafafa;
+  background-color: #222222;
 }
 
 
