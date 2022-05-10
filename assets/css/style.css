@@ -1192,12 +1192,6 @@ section {
   background: #fff;
 }
 
-/* .profissionais .scroll {
-  height: calc(70vh - 50px);
-  overflow-y:scroll;
-} */
-
-
 .profissionais .member {
   flex-direction: column;
   position: relative;
@@ -1205,17 +1199,6 @@ section {
   padding: 30px;
   border-radius: 10px;
 }
-
-/* @media (max-width: 768px) {
-  .profissionais .member {
-    flex-direction: column;
-  }
-
-  .profissionais .member .pic {
-    margin: 0 auto 14px auto;
-  }
-
-} */
 
 .profissionais .member .pic {
   margin: 0 auto 14px auto;
@@ -1233,8 +1216,9 @@ section {
   transform: scale(1.1);
 }
 
-.profissionais .member .member-info {
-  /* padding-left: 30px; */
+.profissionais .member .member-info article a {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .profissionais .member h4 {
