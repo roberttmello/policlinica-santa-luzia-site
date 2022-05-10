@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  font-size: 1rem;
 }
 
 a {
@@ -116,7 +117,7 @@ h6 {
 #topbar {
   background: #fff;
   height: 40px;
-  font-size: 14px;
+  font-size: 1rem;
   transition: all 0.5s;
   z-index: 996;
 }
@@ -252,7 +253,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 1rem;
   color: #119922;
   white-space: nowrap;
   transition: 0.3s;
@@ -262,7 +263,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 0;
   margin-left: 5px;
 }
@@ -296,7 +297,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 500;
   text-transform: none;
   color: #004411;
@@ -304,7 +305,7 @@ h6 {
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 .navbar .dropdown ul a:hover,
@@ -443,7 +444,7 @@ h6 {
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -491,7 +492,7 @@ h6 {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 35px;
@@ -627,7 +628,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .breadcrumbs ol li+li {
@@ -686,7 +687,7 @@ section {
 }
 
 .why-us .content .more-btn i {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .why-us .content .more-btn:hover {
@@ -785,7 +786,7 @@ section {
 .sobre .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .sobre .video-box {
@@ -934,7 +935,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 /*--------------------------------------------------------------
@@ -991,8 +992,9 @@ section {
 
 .servicos .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 1rem;
   margin-bottom: 12px;
+  text-align: justify;
 }
 
 .servicos .icon-box:hover {
@@ -1087,7 +1089,7 @@ section {
 .especialidades .member p {
   text-align: left;
   margin: 10px 0 0 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .especialidades .member .member-info button {
@@ -1264,7 +1266,7 @@ section {
 
 .profissionais .member p {
   margin: 10px 0 0 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .profissionais .member .social {
@@ -1419,7 +1421,7 @@ section {
 }
 
 .depoimentos .depoimento-item h4 {
-  font-size: 14px;
+  font-size: 1rem;
   color: #999;
   margin: 0;
 }
@@ -1537,7 +1539,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 1rem;
   color: #119922;
 }
 
@@ -1608,7 +1610,7 @@ section {
 .contact .js-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .contact .js-email-form input {
@@ -1657,7 +1659,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   color: #444444;
-  font-size: 14px;
+  font-size: 1rem;
   background: #f1f7fd;
 }
 
@@ -1684,7 +1686,7 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
