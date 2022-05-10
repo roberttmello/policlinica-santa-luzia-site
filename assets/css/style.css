@@ -1076,6 +1076,7 @@ section {
 .especialidades .member .member-info .modal-body p {
   font-size: 1.25rem;
   margin-left: 40px;
+  text-align: justify;
 }
 
 
