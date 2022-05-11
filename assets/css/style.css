@@ -913,18 +913,19 @@ section {
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 20px;
+  font-size: 32px;
   background: #007711;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
 }
 
 .counts .count-box span {
+  margin-top: 16px;
   font-size: 36px;
   display: block;
   font-weight: 600;
