@@ -1143,6 +1143,19 @@ section {
   margin-left: 8px;
 }
 
+.modal-content .modal-header {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content .modal-body .modal-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.modal-content .modal-body .modal-image-container img {
+  border-radius: 8px;
+}
 
 @media (max-width: 480px) {
 
@@ -1217,11 +1230,6 @@ section {
   transform: scale(1.1);
 }
 
-.profissionais .member .member-info article a {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 .profissionais .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
@@ -1255,6 +1263,7 @@ section {
   font-size: 1rem;
 }
 
+
 .profissionais .member .social {
   margin-top: 12px;
   display: flex;
@@ -1270,7 +1279,7 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #88CC88;
+  background: #007711;
 }
 
 .profissionais .member .social a i {
@@ -1280,12 +1289,26 @@ section {
 }
 
 .profissionais .member .social a:hover {
-  background: #007711;
+  background: #88CC88;
 }
 
 .profissionais .member .social a+a {
   margin-left: 8px;
 }
+
+.profissionais .member .member-info .modal-body {
+  justify-content:flex-start;
+}
+
+.profissionais .member .member-info .modal-body img {
+  margin-top: 24px;
+}
+
+.profissionais .member .member-info .modal-body p {
+  font-size: 1rem;
+}
+
+
 
 /*--------------------------------------------------------------
 # FAQ
