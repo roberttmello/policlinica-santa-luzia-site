@@ -678,10 +678,11 @@ section {
 }
 
 .why-us .content .more-btn {
+  font-weight: bold;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background-color: #fafafa;
   padding: 6px 30px 8px 30px;
-  color: #fff;
+  color: #222222;
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
@@ -691,8 +692,8 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #007711;
-  background: #fff;
+  background-color: #222222;
+  color: #fafafa;
 }
 
 .why-us .icon-boxes .icon-box {
@@ -705,6 +706,7 @@ section {
 }
 
 .why-us .icon-boxes .icon-box i {
+  font-weight: bold;
   font-size: 40px;
   color: #007711;
   margin-bottom: 30px;
