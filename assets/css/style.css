@@ -1063,6 +1063,10 @@ section {
   text-align: center;
 }
 
+.especialidades .member .member-info .modal-content .modal-header  h5 {
+  font-weight: bold;
+}
+
 .especialidades .member .member-info .modal-body {
   display: flex;
   justify-content: space-between;
