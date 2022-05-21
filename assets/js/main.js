@@ -1,6 +1,4 @@
 /**
-* * Nome do template: Clínica Up - v4.5.0
-  * URL do template: https://topposolutions.com/templates/clinicaup
   * Autor: topposolutions.com
   * Licença: https://topposolutions.com/license/
 */
