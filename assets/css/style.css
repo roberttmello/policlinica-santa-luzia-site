@@ -497,7 +497,7 @@ h6 {
 #intro .btn-get-started {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1rem;
   letter-spacing: 1px;
   display: inline-block;
@@ -713,7 +713,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 60px;
   color: #007711;
   margin-bottom: 30px;
 }
@@ -973,7 +973,7 @@ section {
 
 .servicos .icon-box .icon i {
   color: #fff;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .servicos .icon-box .icon::before {
