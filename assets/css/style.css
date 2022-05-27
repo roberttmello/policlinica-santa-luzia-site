@@ -1220,6 +1220,7 @@ section {
 }
 
 .profissionais .member {
+  height: 360px;
   flex-direction: column;
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 119, 17, 0.08);
@@ -1277,36 +1278,8 @@ section {
 }
 
 
-.profissionais .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.profissionais .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #007711;
-}
-
-.profissionais .member .social a i {
-  color: #fff;
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-.profissionais .member .social a:hover {
-  background: #88CC88;
-}
-
-.profissionais .member .social a+a {
-  margin-left: 8px;
+.profissionais .member .member-info button {
+  margin-top: 40px;
 }
 
 .profissionais .member .member-info .modal-body {
